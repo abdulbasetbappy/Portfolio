@@ -1,0 +1,70 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"}
+            }
+        },
+
+        {
+            "id": "certifications",
+            "faIcon": "fa-solid fa-award",
+            "locales": {
+                "en": {"title": "Certifications", "buttonLabel": "View Certification"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "graduation_project",
+                "place": "@link{places.apple}",
+                "date": "2018/08",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Leading Position in Frontend",
+                        "description": "Outstanding work on graduation project; recognized for innovation and impact."
+                    }
+                }
+            }
+        ],
+
+        "certifications": [
+            {
+                "id": "google_cert",
+                "place": "@link{places.google}",
+                "date": "2018/08",
+                "href": "https://google.com",
+                "locales": {
+                    "en": {
+                        "title": "WordPress Development",
+                        "description": "Certified by Sorobindu.com in WordPress Development; demonstrated expertise in user-centered design."
+                    }
+                }
+            },
+            {
+                "id": "google_cert1",
+                "place": "@link{places.google}",
+                "date": "2018/08",
+                "href": "https://google.com",
+                "locales": {
+                    "en": {
+                        "title": "Mastering Frontend with VueJs",
+                        "description": "Certified by Ostad.com in Frontend; demonstrated expertise in user-centered design."
+                    }
+                }
+            }
+        ]
+    }
+}

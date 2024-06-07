@@ -1,0 +1,61 @@
+{
+    "name": "Abdul Baset Bappy",
+    "profilePictureUrl": "images/pictures/Abdul-Baset-Bappy.png",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by❤<strong><a class='light' href='https://github.com/abdulbasetbappy'>Abdul Baset Bappy</a></strong>",
+            "role": "Frontend Developer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "89/9 Motijheel, Dhaka, Bangladesh",
+            "valueShort": "89/9 Motijheel, Dhaka",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "abdulbasetbappy@hotmail.com",
+            "valueShort": "abdulbasetbappy@hotmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:abdulbasetbappy@hotmail.com"
+        },
+
+        "facebook": {
+            "id": "facebook",
+            "value": "@abdulbasetbappy.info",
+            "valueShort": "@abdulbasetbappy.info",
+            "faIcon": "fa-brands fa-facebook",
+            "href": "https://facebook.com/abdulbasetbappy.info"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@`abdulbasetbappy",
+            "valueShort": "@abdulbasetbappy",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/abdulbasetbappy"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@abdulbasetbappy",
+            "valueShort": "@abdulbasetbappy",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/abdulbasetbappy"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+880 1799568976",
+            "valueShort": "+880 1799568976",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:+880 1799568976"
+        }
+    }
+}

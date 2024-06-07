@@ -1,0 +1,73 @@
+{
+    "adobe": {
+        "logoUrl": "images/places/logo-adobe.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "WeTch Pro"}
+        }
+    },
+
+    "apple": {
+        "logoUrl": "images/pictures/wetechpro.png",
+        "faIcon": "fab fa-apple",
+        "locales": {
+            "en": {"name": "CoderOrbit"}
+        }
+    },
+
+    "coursera": {
+        "logoUrl": "images/pictures/coderoribit.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "WeTch Pro"}
+        }
+    },
+
+    "forbes": {
+        "logoUrl": null,
+        "faIcon": "fa-solid fa-newspaper",
+        "locales": {
+            "en": {"name": "Forbes"}
+        }
+    },
+
+    "google": {
+        "logoUrl": null,
+        "faIcon": "fab fa-google",
+        "locales": {
+            "en": {"name": "Google"}
+        }
+    },
+
+    "harvard": {
+        "logoUrl": "images/pictures/University-of-dhaka.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "University of Dhaka"}
+        }
+    },
+
+    "paris": {
+        "logoUrl": "images/pictures/bauc.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Agriculture University College"}
+        }
+    },
+
+    "udacity": {
+        "logoUrl": "images/pictures/Ostad-com.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Online"}
+        }
+    },
+
+    "uxStudio": {
+        "logoUrl": "images/places/logo-ux-studio.png",
+        "faIcon": "fas fa-paint-brush",
+        "locales": {
+            "en": {"name": "UX Masters Studio"}
+        }
+    }
+}

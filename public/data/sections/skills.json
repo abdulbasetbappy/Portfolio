@@ -1,0 +1,236 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Exploring the diverse range of skills I've acquired and developed:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "abilities",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-square",
+            "locales": {
+                "en": {"title": null}
+            }
+        },
+
+        {
+            "id": "programming",
+            "type": "grid",
+            "progress": "number",
+            "faIcon": "fa fa-code",
+            "locales": {
+                "en": {"title": "Programming"}
+            }
+        },
+        {
+            "id": "extra",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-marker",
+            "locales": {
+                "en": {"title": "Others Skills"}
+            }
+        },
+
+        {
+            "id": "languages",
+            "type": "list",
+            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
+            "faIcon": "fa fa-language",
+            "locales": {
+                "en": {"title": "Languages"}
+            }
+        }
+    ],
+
+    "items": {
+        "abilities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-mobile-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Responsive Layouts",
+                        "description": "Proficient in designing websites that dynamically adjust to different screen sizes and devices, ensuring optimal user experience across all platforms."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-paint-roller",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Design Principles",
+                        "description": "Mastery in creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-vector-square",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Restful API Integration",
+                        "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-check-double",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Experienced with TypeScript",
+                        "description": "Enhancing user experiences through comprehensive usability testing."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-server",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Server Side Rendering",
+                        "description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-git-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Version Control",
+                        "description": "Skilled in translating concepts into interactive prototypes for testing and refinement."
+                    }
+                }
+            }
+        ],
+
+        "programming": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-html5",
+                "value": 95,
+                "locales": {
+                    "en": {"title": "HTML 5", "description": "<strong>Experience time:</strong> 3+ years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-css3-alt",
+                "value": 90,
+                "locales": {
+                    "en": {"title": "CSS 3", "description": "<strong>Experience time:</strong> 2+ years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-sass",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "Sass/Less", "description": "<strong>Experience time:</strong> 2+ years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js-square",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "JavaScript", "description": "<strong>Experience time:</strong> 1+ years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-vuejs",
+                "value": 90,
+                "locales": {
+                    "en": {"title": "Vue 3", "description": "Nanodegree in VueJs development (Ostad.com)<br><strong>Experience time:</strong> 1+ year"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-react",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "Nuxt 3", "description": "Nanodegree in NuxtJs development (Ostad.com)<br><strong>Experience time:</strong> 1+ year"}
+                }
+            }
+        ],
+
+        "extra": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-github-alt",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Version Control Git", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {"title": "Restful API Integration", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {"title": "Professional experience with TypeScript", "description": "Able to transform complex data into clear visuals."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {"title": "Fullstack Nuxt Applications", "description": "Able to create digital experiences that are accessible to all."}
+                }
+            }
+        ],
+        "languages": [
+            {
+                "imageIconUrl": "images/flags/bangladesh.png",
+                "faIcon": null,
+                "value": 100,
+                "locales": {
+                    "en": {"title": "Bangla", "description": "Native speaker with excellent communication and writing skills."}
+                }
+            },
+
+            {
+                "imageIconUrl": "images/flags/en.png",
+                "faIcon": null,
+                "value": 90,
+                "locales": {
+                    "en": {"title": "English", "description": "Fluent in both spoken and written Spanish; confident in professional communication."}
+                }
+            }
+        ]
+
+    }
+}
