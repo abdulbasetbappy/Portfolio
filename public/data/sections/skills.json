@@ -200,8 +200,10 @@
                 "faIcon": " fa-regular fa-comments",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Good Communication",
-                    "description": "Strong verbal and written communication skills, facilitating clear and effective collaboration. Capable of conveying complex ideas to diverse audiences."}
+                    "en": {
+                        "title": "Good Communication",
+                        "description": "Strong verbal and written communication skills, facilitating clear and effective collaboration. Capable of conveying complex ideas to diverse audiences."
+                    }
                 }
             },
             {
@@ -209,9 +211,10 @@
                 "faIcon": "fa-solid fa-users",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Teamwork Experience",
-"description": "Proven ability to collaborate effectively within diverse teams to achieve common goals. Skilled in fostering a cooperative and productive work environment."
-}
+                    "en": {
+                        "title": "Teamwork Experience",
+                        "description": "Proven ability to collaborate effectively within diverse teams to achieve common goals. Skilled in fostering a cooperative and productive work environment."
+                    }
                 }
             },
             {
@@ -220,9 +223,9 @@
                 "value": null,
                 "locales": {
                     "en": {
-    "title": "Problem Solving",
-    "description": "Proficient in identifying and resolving complex issues through analytical thinking and innovative solutions. Demonstrates adaptability and resourcefulness in tackling challenges."
-}
+                        "title": "Problem Solving",
+                        "description": "Proficient in identifying and resolving complex issues through analytical thinking and innovative solutions. Demonstrates adaptability and resourcefulness in tackling challenges."
+                    }
 
                 }
             },
@@ -232,9 +235,9 @@
                 "value": null,
                 "locales": {
                     "en": {
-    "title": "Creativity",
-    "description": "Demonstrates originality and imagination in generating innovative solutions and designs. Applies creative thinking to problem-solving and project development."
-}
+                        "title": "Creativity",
+                        "description": "Demonstrates originality and imagination in generating innovative solutions and designs. Applies creative thinking to problem-solving and project development."
+                    }
 
                 }
             }

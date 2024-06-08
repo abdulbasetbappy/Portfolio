@@ -14,7 +14,7 @@
             "locales": {
                 "en": {
                     "title": "WordPress Developer",
-"description": "Managed WordPress projects from conception to deployment, customizing themes and plugins to meet client requirements. Implemented best practices in coding and security to ensure optimal website performance and reliability. Collaborated with cross-functional teams to deliver high-quality solutions within project timelines."
+                    "description": "Managed WordPress projects from conception to deployment, customizing themes and plugins to meet client requirements. Implemented best practices in coding and security to ensure optimal website performance and reliability. Collaborated with cross-functional teams to deliver high-quality solutions within project timelines."
                 }
             }
         },
@@ -26,7 +26,7 @@
             "locales": {
                 "en": {
                     "title": "Frontend Developer",
-"description": "Developed responsive and visually appealing web interfaces using Vue.js and Nuxt.js, adhering to industry best practices and accessibility standards. Collaborated closely with designers and backend developers to integrate frontend components seamlessly. Implemented efficient data fetching and state management solutions to enhance user experience and performance."
+                    "description": "Developed responsive and visually appealing web interfaces using Vue.js and Nuxt.js, adhering to industry best practices and accessibility standards. Collaborated closely with designers and backend developers to integrate frontend components seamlessly. Implemented efficient data fetching and state management solutions to enhance user experience and performance."
                 }
             }
         }
