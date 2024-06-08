@@ -2,7 +2,7 @@
     "locales": {
         "en": {
             "title": "Career <span class='text-primary'>Achievements</span>",
-            "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
+            "description": "In my journey as a Frontend Developer, I've eagerly sought learning opportunities, joining programming events and courses. This effort has led to earning various certifications, highlighting my dedication to growing professionally."
         }
     },
 
@@ -27,14 +27,14 @@
     "items": {
         "awards": [
             {
-                "id": "graduation_project",
-                "place": "@link{places.apple}",
-                "date": "2018/08",
+                "id": "CoderOrbit_project",
+                "place": "@link{places.CoderOrbit}",
+                "date": "2022/08",
                 "href": null,
                 "locales": {
                     "en": {
                         "title": "Leading Position in Frontend",
-                        "description": "Outstanding work on graduation project; recognized for innovation and impact."
+                        "description": "Recognized for outstanding performance and leadership in Frontend development, contributing to project success and team achievements."
                     }
                 }
             }
@@ -42,26 +42,26 @@
 
         "certifications": [
             {
-                "id": "google_cert",
-                "place": "@link{places.google}",
-                "date": "2018/08",
-                "href": "https://google.com",
+                "id": "SoroBindu_cert",
+                "place": "@link{places.SoroBindu}",
+                "date": "2023/06",
+                "href": "https://sorobindu.com",
                 "locales": {
                     "en": {
                         "title": "WordPress Development",
-                        "description": "Certified by Sorobindu.com in WordPress Development; demonstrated expertise in user-centered design."
+                        "description": "Certified in WordPress Development, demonstrating expertise in creating custom themes and plugins for versatile web solutions."
                     }
                 }
             },
             {
-                "id": "google_cert1",
-                "place": "@link{places.google}",
-                "date": "2018/08",
-                "href": "https://google.com",
+                "id": "Ostad_cert",
+                "place": "@link{places.Ostad}",
+                "date": "2020/08",
+                "href": "https://ostad.com",
                 "locales": {
                     "en": {
                         "title": "Mastering Frontend with VueJs",
-                        "description": "Certified by Ostad.com in Frontend; demonstrated expertise in user-centered design."
+                        "description": "Achieved certification in mastering VueJs for advanced Frontend development, showcasing proficiency in building dynamic and interactive web applications."
                     }
                 }
             }

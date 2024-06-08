@@ -118,7 +118,9 @@ ul.thread {
             margin-left: calc(var(--scale) * 3.7rem);
         }
     }
-
+.thread-item-description{
+    color: rgb(102, 102, 102) !important;
+}
     .thread-item-end {
         margin-bottom: 0;
         min-height: calc(1rem * var(--scale));

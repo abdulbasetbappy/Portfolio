@@ -8,8 +8,8 @@
 
     "items": [
         {
-            "id": "online_course_udacity",
-            "place": "@link{places.udacity}",
+            "id": "online_course_Online",
+            "place": "@link{places.Online}",
             "period": ["2022/07", "2023/06"],
 
             "locales": {
@@ -21,8 +21,8 @@
         },
 
         {
-            "id": "bachelor_harvard",
-            "place": "@link{places.harvard}",
+            "id": "bachelor_DU",
+            "place": "@link{places.DU}",
             "period": ["2020/08", "2025/05"],
 
             "locales": {
@@ -34,8 +34,8 @@
         },
 
         {
-            "id": "masters_paris",
-            "place": "@link{places.paris}",
+            "id": "masters_auc",
+            "place": "@link{places.AUC}",
             "period": ["2018/09", "2020/05"],
             "locales": {
                 "en": {

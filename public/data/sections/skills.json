@@ -56,7 +56,7 @@
                 "locales": {
                     "en": {
                         "title": "Responsive Layouts",
-                        "description": "Proficient in designing websites that dynamically adjust to different screen sizes and devices, ensuring optimal user experience across all platforms."
+                        "description": "Expertise in designing adaptable web interfaces that function seamlessly across various devices and screen sizes. Ensures optimal user experience on desktops, tablets, and mobile."
                     }
                 }
             },
@@ -68,7 +68,7 @@
                 "locales": {
                     "en": {
                         "title": "Design Principles",
-                        "description": "Mastery in creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
+                        "description": "Mastery in creating Awesome designs, blending color theory, typography, layout, and balance for effective messaging. Proficient in enhancing user Experience"
                     }
                 }
             },
@@ -80,7 +80,7 @@
                 "locales": {
                     "en": {
                         "title": "Restful API Integration",
-                        "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
+                        "description": "Proficiency in integrating RESTful APIs into web applications, facilitating efficient communication and data exchange between server and client."
                     }
                 }
             },
@@ -92,7 +92,7 @@
                 "locales": {
                     "en": {
                         "title": "Experienced with TypeScript",
-                        "description": "Enhancing user experiences through comprehensive usability testing."
+                        "description": "Extensive experience in using TypeScript to build robust and maintainable codebases. Enhances development with strong typing and improved code quality."
                     }
                 }
             },
@@ -104,7 +104,7 @@
                 "locales": {
                     "en": {
                         "title": "Server Side Rendering",
-                        "description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
+                        "description": "Proficient in implementing Server Side Rendering (SSR) to improve performance and SEO. Enhances user experience by delivering faster and more dynamic web pages."
                     }
                 }
             },
@@ -116,7 +116,7 @@
                 "locales": {
                     "en": {
                         "title": "Version Control",
-                        "description": "Skilled in translating concepts into interactive prototypes for testing and refinement."
+                        "description": "Skilled in using version control systems like Git for efficient code management and collaboration. Ensures seamless tracking of changes and project integrity."
                     }
                 }
             }
@@ -126,7 +126,7 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-html5",
-                "value": 95,
+                "value": 93,
                 "locales": {
                     "en": {"title": "HTML 5", "description": "<strong>Experience time:</strong> 3+ years"}
                 }
@@ -135,7 +135,7 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-css3-alt",
-                "value": 90,
+                "value": 91,
                 "locales": {
                     "en": {"title": "CSS 3", "description": "<strong>Experience time:</strong> 2+ years"}
                 }
@@ -144,25 +144,40 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-sass",
-                "value": 85,
+                "value": 82,
                 "locales": {
                     "en": {"title": "Sass/Less", "description": "<strong>Experience time:</strong> 2+ years"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "./../../images/icons/tailwindCSS.svg",
+                "value": 89,
+                "locales": {
+                    "en": {"title": "TailwindCSS", "description": "<strong>Experience time:</strong> 1+ year"}
                 }
             },
 
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-js-square",
-                "value": 85,
+                "value": 87,
                 "locales": {
                     "en": {"title": "JavaScript", "description": "<strong>Experience time:</strong> 1+ years"}
                 }
             },
-
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-github",
+                "value": 88,
+                "locales": {
+                    "en": {"title": "GitHub", "description": "<strong>Experience time:</strong> 2+ year"}
+                }
+            },
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-vuejs",
-                "value": 90,
+                "value": 91,
                 "locales": {
                     "en": {"title": "Vue 3", "description": "Nanodegree in VueJs development (Ostad.com)<br><strong>Experience time:</strong> 1+ year"}
                 }
@@ -170,44 +185,57 @@
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-react",
-                "value": 85,
+                "faIcon": "./../../images/icons/TablerBrandNuxt.svg",
+                "value": 89,
                 "locales": {
                     "en": {"title": "Nuxt 3", "description": "Nanodegree in NuxtJs development (Ostad.com)<br><strong>Experience time:</strong> 1+ year"}
                 }
             }
+
+
         ],
         "extra": [
             {
                 "imageIconUrl": null,
-                "faIcon": "fa-brands fa-github-alt",
+                "faIcon": " fa-regular fa-comments",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Good Communication", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."}
+                    "en": {"title": "Good Communication",
+                    "description": "Strong verbal and written communication skills, facilitating clear and effective collaboration. Capable of conveying complex ideas to diverse audiences."}
                 }
             },
             {
                 "imageIconUrl": null,
-                "faIcon": null,
+                "faIcon": "fa-solid fa-users",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Teamwork Experience", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."}
+                    "en": {"title": "Teamwork Experience",
+"description": "Proven ability to collaborate effectively within diverse teams to achieve common goals. Skilled in fostering a cooperative and productive work environment."
+}
                 }
             },
             {
                 "imageIconUrl": null,
-                "faIcon": null,
+                "faIcon": "fa-solid fa-triangle-exclamation",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Problem solving", "description": "Able to transform complex data into clear visuals."}
+                    "en": {
+    "title": "Problem Solving",
+    "description": "Proficient in identifying and resolving complex issues through analytical thinking and innovative solutions. Demonstrates adaptability and resourcefulness in tackling challenges."
+}
+
                 }
             },
             {
                 "imageIconUrl": null,
-                "faIcon": null,
+                "faIcon": "fa-solid fa-ghost",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Creativity", "description": "Able to create digital experiences that are accessible to all."}
+                    "en": {
+    "title": "Creativity",
+    "description": "Demonstrates originality and imagination in generating innovative solutions and designs. Applies creative thinking to problem-solving and project development."
+}
+
                 }
             }
         ],
@@ -226,7 +254,7 @@
                 "faIcon": null,
                 "value": 90,
                 "locales": {
-                    "en": {"title": "English", "description": "Fluent in both spoken and written Spanish; confident in professional communication."}
+                    "en": {"title": "English", "description": "Fluent in both spoken and written English; confident in professional communication."}
                 }
             }
         ]

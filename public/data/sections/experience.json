@@ -9,24 +9,24 @@
     "items": [
         {
             "id": "experience_item_1",
-            "place": "@link{places.apple}",
-            "period": ["2020/09", "2022/09"],
+            "place": "@link{places.WeTechPro}",
+            "period": ["2021/11", "2023/06"],
             "locales": {
                 "en": {
                     "title": "WordPress Developer",
-                    "description": "Drove UX initiatives by overseeing a team of designers, crafting design strategies, and spearheading cross-functional collaborations with product managers, engineers, and executives. Focused on creating user-centric designs that aligned with business objectives and resulted in enhanced user satisfaction."
+"description": "Managed WordPress projects from conception to deployment, customizing themes and plugins to meet client requirements. Implemented best practices in coding and security to ensure optimal website performance and reliability. Collaborated with cross-functional teams to deliver high-quality solutions within project timelines."
                 }
             }
         },
 
         {
             "id": "experience_item_2",
-            "place": "@link{places.coursera}",
-            "period": ["2022/10", "now"],
+            "place": "@link{places.CoderOrbit}",
+            "period": ["2023/8", "now"],
             "locales": {
                 "en": {
                     "title": "Frontend Developer",
-                    "description": "Leveraged my expertise in UX design to educate and inspire students in the art of user-centered design principles. Conducted user studies, analyzed data, and guided students in applying theoretical knowledge to practical projects, empowering the next generation of UX designers."
+"description": "Developed responsive and visually appealing web interfaces using Vue.js and Nuxt.js, adhering to industry best practices and accessibility standards. Collaborated closely with designers and backend developers to integrate frontend components seamlessly. Implemented efficient data fetching and state management solutions to enhance user experience and performance."
                 }
             }
         }

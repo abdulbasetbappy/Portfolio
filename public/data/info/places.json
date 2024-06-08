@@ -1,45 +1,37 @@
 {
-    "adobe": {
-        "logoUrl": "images/places/logo-adobe.png",
-        "faIcon": "fa fa-house-laptop",
+
+    "WeTechPro": {
+        "logoUrl": "images/pictures/wetechpro.png",
+        "faIcon": null,
         "locales": {
-            "en": {"name": "WeTch Pro"}
+            "en": {"name": "WeTechPro"}
         }
     },
 
-    "apple": {
-        "logoUrl": "images/pictures/wetechpro.png",
-        "faIcon": "fab fa-apple",
+    "CoderOrbit": {
+        "logoUrl": "images/pictures/coderoribit.png",
+        "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "CoderOrbit"}
         }
     },
 
-    "coursera": {
-        "logoUrl": "images/pictures/coderoribit.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "WeTch Pro"}
-        }
-    },
-
-    "forbes": {
+    "SoroBindu": {
         "logoUrl": null,
-        "faIcon": "fa-solid fa-newspaper",
+        "faIcon": null,
         "locales": {
-            "en": {"name": "Forbes"}
+            "en": {"name": "SoroBindu"}
         }
     },
-
-    "google": {
+    "Ostad": {
         "logoUrl": null,
-        "faIcon": "fab fa-google",
+        "faIcon": null,
         "locales": {
-            "en": {"name": "Google"}
+            "en": {"name": "Ostad"}
         }
     },
 
-    "harvard": {
+    "DU": {
         "logoUrl": "images/pictures/University-of-dhaka.png",
         "faIcon": "fas fa-university",
         "locales": {
@@ -47,7 +39,7 @@
         }
     },
 
-    "paris": {
+    "AUC": {
         "logoUrl": "images/pictures/bauc.png",
         "faIcon": "fas fa-university",
         "locales": {
@@ -55,19 +47,11 @@
         }
     },
 
-    "udacity": {
+    "Online": {
         "logoUrl": "images/pictures/Ostad-com.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "Online"}
-        }
-    },
-
-    "uxStudio": {
-        "logoUrl": "images/places/logo-ux-studio.png",
-        "faIcon": "fas fa-paint-brush",
-        "locales": {
-            "en": {"name": "UX Masters Studio"}
         }
     }
 }
