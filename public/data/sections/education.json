@@ -10,12 +10,12 @@
         {
             "id": "online_course_udacity",
             "place": "@link{places.udacity}",
-            "period": ["2023/07", "2024/06"],
+            "period": ["2022/07", "2023/06"],
 
             "locales": {
                 "en": {
                     "title": "Frontend Development in Ostad.com",
-                    "description": "Enrolled in an online program covering essential UX concepts, including user research, usability testing, and information architecture. Strengthened skills in creating intuitive and user-friendly digital experiences."
+                    "description": "Enrolled in an online program focused on Frontend concepts, encompassing Server-Side Rendering, API Integration, and Deployment on Host Servers. Enhanced skills in creating intuitive and user-friendly digital experiences."
                 }
             }
         },
@@ -28,7 +28,7 @@
             "locales": {
                 "en": {
                     "title": "Bachelor's in Applied Botany",
-                    "description": "Graduated with a solid foundation in graphic design while specializing in user experience design. Acquired expertise in visual storytelling, UI design, and collaborative design thinking."
+                    "description": "An in-depth study of plant biology, focusing on practical applications in agriculture, horticulture, and environmental conservation. Develops skills in plant identification, propagation, and sustainable management."
                 }
             }
         },
@@ -37,11 +37,10 @@
             "id": "masters_paris",
             "place": "@link{places.paris}",
             "period": ["2018/09", "2020/05"],
-
             "locales": {
                 "en": {
                     "title": "Higher Secondary Certificate in Science",
-                    "description": "Completed an intensive program focusing on user-centered design principles, usability testing, and interaction design. Developed skills in wireframing, prototyping, and user research methodologies."
+                    "description": "A comprehensive program covering fundamental concepts in physics, chemistry, biology, and mathematics. Prepares students for advanced studies and careers in scientific fields."
                 }
             }
         }

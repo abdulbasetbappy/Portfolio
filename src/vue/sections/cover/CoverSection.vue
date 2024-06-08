@@ -1,12 +1,15 @@
 <template>
   <SectionTemplate class="parent" :section-data="props.sectionData">
     <div class="resume">
+      <!--Resume-->
+      <a href="/public/mohasin-hossain-full-stack-developer-resume.pdf" download>
       <button class="resume-btn">
         Resume
         <span>
-            <i class="fa-solid fa-cloud-arrow-down"></i>
+          <i class="fa-solid fa-cloud-arrow-down"></i>
         </span>
       </button>
+    </a>
     </div>
     <!-- Title -->
     <h1 class="cover-title display-1" v-html="coverTitle" />
@@ -28,7 +31,14 @@
 
     <!-- Social Links -->
     <SocialLinks :items="props.sectionData.content['items']['socialCircles']" />
+    <div id="scroll-down-animation">
+  <span class="mouse">
+    <span class="move"></span>
+  </span>
+  <h2>Scroll down</h2>
+</div>
   </SectionTemplate>
+
 </template>
 
 <script setup>
@@ -115,7 +125,7 @@ const coverTitle = computed(() => {
 .resume-btn {
   border: none;
   background: $dark;
-  padding: 5px 8px;
+  padding: 8px 10px;
   border-radius: 8px;
     color: white;
     font-size: large;
@@ -126,8 +136,68 @@ const coverTitle = computed(() => {
     background: $primary;
     transition: all 0.3s ease-in-out;
   }
+
 }
 .cover-description{
   color: gray !important;
+}
+#scroll-down-animation {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 992px) {
+  #scroll-down-animation {
+    display: none;
+  }
+  
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.mouse {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50px;
+  border: 2px solid #212529;
+  height: 85px;
+  width: 50px;
+  position: relative;
+}
+
+.move {
+  position: absolute;
+  background-color: #0284C7;
+  height: 16px;
+  width: 8px;
+  border-radius: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-50%,2px);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(-50%, 25px);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(-50%,35px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%,35px);
+    opacity: 0;
+  }
 }
 </style>

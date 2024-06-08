@@ -177,14 +177,13 @@
                 }
             }
         ],
-
         "extra": [
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-brands fa-github-alt",
                 "value": null,
                 "locales": {
-                    "en": {"title": "Version Control Git", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."}
+                    "en": {"title": "Good Communication", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."}
                 }
             },
             {
@@ -192,7 +191,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Restful API Integration", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."}
+                    "en": {"title": "Teamwork Experience", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."}
                 }
             },
             {
@@ -200,7 +199,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Professional experience with TypeScript", "description": "Able to transform complex data into clear visuals."}
+                    "en": {"title": "Problem solving", "description": "Able to transform complex data into clear visuals."}
                 }
             },
             {
@@ -208,7 +207,7 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Fullstack Nuxt Applications", "description": "Able to create digital experiences that are accessible to all."}
+                    "en": {"title": "Creativity", "description": "Able to create digital experiences that are accessible to all."}
                 }
             }
         ],

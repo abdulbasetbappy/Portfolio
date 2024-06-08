@@ -179,7 +179,12 @@ ul.timeline {
     .timeline-item-content {
         margin-left: calc(var(--image-size) + calc(var(--image-size)/5));
     }
+.timeline-item-content-body{
+    p{
+        color:#6c757d !important ;
 
+    }
+}
     .timeline-item-content-header {
         display: flex;
         padding-top: var(--content-padding-top);
