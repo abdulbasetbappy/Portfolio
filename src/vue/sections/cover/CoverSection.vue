@@ -2,7 +2,7 @@
   <SectionTemplate class="parent" :section-data="props.sectionData">
     <div class="resume animate-on-scroll">
       <!--Resume-->
-      <a href="/public/Abdul-Baset-Bappy-Resume.pdf" download>
+      <a @click="downloadResume" >
       <button class="resume-btn">
         Resume
         <span>
@@ -69,6 +69,14 @@ const coverTitle = computed(() => {
     return props.sectionData.content["locales"]["welcomeShort"];
   }
 });
+const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href = '/Abdul-Baset-Bappy-Resume.pdf'; // Path to your PDF file
+  link.download = 'Abdul-Baset-Bappy-Resume.pdf'; // The name of the file when downloaded
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 </script>
 
 <style lang="scss" scoped>
