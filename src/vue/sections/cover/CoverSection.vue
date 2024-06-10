@@ -2,7 +2,7 @@
   <SectionTemplate class="parent" :section-data="props.sectionData">
     <div class="resume animate-on-scroll">
       <!--Resume-->
-      <a href="/public/mohasin-hossain-full-stack-developer-resume.pdf" download>
+      <a href="/public/Abdul-Baset-Bappy-Resume.pdf" download>
       <button class="resume-btn">
         Resume
         <span>

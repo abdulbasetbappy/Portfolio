@@ -15,7 +15,7 @@
                 <p class="mt-2 mb-2 text-2">{{ message }}...</p>
 
                 <!-- Progress Bar -->
-                <ProgressBar ref="progressBar"
+                <ProgressBar class="bar" ref="progressBar"
                              :percentage="totalPercentage"/>
             </div>
         </div>
@@ -196,7 +196,7 @@ defineExpose({
     justify-content: center;
     align-items: center;
 
-    z-index: 10000;
+    z-index: 1000;
     background-color: $nav-background-color;
     width: 100vw;
     height: 125vh;
@@ -218,7 +218,7 @@ defineExpose({
     animation: appear 0.2s ease-out forwards;
 
     .img-logo {
-        max-height: min(65px, 20vh);
+        max-height: min(115px, 20vh);
         aspect-ratio: 1/1;
         animation: popIn 0.3s ease-out forwards;
     }
@@ -235,7 +235,7 @@ defineExpose({
         }
 
         p {
-            font-family: 'Arial', serif;
+            font-size: 20px;
         }
     }
 }
