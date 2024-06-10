@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row ">
         <div v-for="item in props.items" class="col-12 item-container">
             <InfoItem :item="item"
                       :highlighted-header="false"

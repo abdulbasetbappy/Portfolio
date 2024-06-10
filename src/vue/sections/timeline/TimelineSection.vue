@@ -5,38 +5,38 @@
             <!-- Timeline Items -->
             <li v-for="item in orderedItems" class="timeline-item">
                 <!-- Logo Wrapper -->
-                <div class="timeline-item-logo" :class="{'timeline-item-logo-bg-primary':!(item['place'] && item['place']['logoUrl'])}">
+                <div class="timeline-item-logo " :class="{'timeline-item-logo-bg-primary':!(item['place'] && item['place']['logoUrl'])}">
                     <!-- If item has an image... -->
                     <ImageView v-if="item['place'] && item['place']['logoUrl']"
                                :src="item['place']['logoUrl']"
                                :alt="item['place']['locales']['name']"
-                               class="timeline-item-img img-fluid rounded-circle"/>
+                               class="timeline-item-img img-fluid rounded-circle animate-on-scroll"/>
 
                     <!-- Fallback, use font awesome icon... -->
-                    <i v-else  class="timeline-item-fa-icon"
+                    <i v-else  class="timeline-item-fa-icon animate-on-scroll"
                                :class="item['place']['faIcon'] ? item['place']['faIcon'] : 'fa-solid fa-clock'"/>
                 </div>
 
                 <!-- Item Content -->
-                <div class="timeline-item-content">
+                <div class="timeline-item-content ">
                     <!-- Item Header -->
-                    <div class="timeline-item-content-header">
+                    <div class="timeline-item-content-header animate-on-scroll">
                         <!-- Title + Institution Flex Column -->
                         <div class="flex-column-title">
-                            <h4 class="timeline-item-title fw-bold" v-html="item['locales']['title']"/>
-                            <h6 class="timeline-item-subtitle text-light-6 text-3">
+                            <h4 class="timeline-item-title fw-bold animate-on-scroll" v-html="item['locales']['title']"/>
+                            <h6 class="timeline-item-subtitle text-light-6 text-3 animate-on-scroll">
                                 <i class="fa-solid fa-building me-2 ms-2"/>
                                 <span>{{item['place'] ? item['place']['locales']['name'] : ''}}</span>
                             </h6>
                         </div>
 
-                        <div class="flex-column-date">
-                            <Tags :items="_formatItemDate(item)" class="mt-1 me-1"/>
+                        <div class="flex-column-date animate-on-scroll">
+                            <Tags :items="_formatItemDate(item)" class="mt-1 me-1 "/>
                         </div>
                     </div>
 
                     <!-- Item Body -->
-                    <div class="timeline-item-content-body mt-3">
+                    <div class="timeline-item-content-body mt-3 animate-on-scroll">
                         <p class="text-3 text-normal" v-html="item['locales']['description']"/>
                     </div>
                 </div>
@@ -204,5 +204,21 @@ ul.timeline {
             }
         }
     }
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

@@ -7,28 +7,28 @@
             </div>
 
             <!-- Left Column -->
-            <div class="col-xl-6">
+            <div class="col-xl-6 ">
                 <!-- Name Input -->
-                <div class="form-group input-group">
+                <div class="form-group input-group animate-on-scroll">
                     <span class="input-group-text input-group-attach"><i class="fa fa-signature"/></span>
                     <input class="form-control" id="form-name" type="text" :placeholder="data.getString('name') + ' *'" required/>
                 </div>
 
                 <!-- E-mail Address Input -->
-                <div class="form-group input-group">
+                <div class="form-group input-group animate-on-scroll">
                     <span class="input-group-text input-group-attach"><i class="fa fa-envelope"/></span>
                     <input class="form-control" id="form-email" type="email" :placeholder="data.getString('email') + ' *'" required/>
                 </div>
 
                 <!-- Subject Input -->
-                <div class="form-group input-group">
+                <div class="form-group input-group animate-on-scroll">
                     <span class="input-group-text input-group-attach"><i class="fa fa-pen-to-square"/></span>
                     <input class="form-control" id="form-subject" type="text" :placeholder="data.getString('subject') + ' *'" required/>
                 </div>
             </div>
 
             <!-- Right Column -->
-            <div class="col-xl-6">
+            <div class="col-xl-6 animate-on-scroll">
                 <!-- Message TextArea -->
                 <div class="form-group form-group-textarea mb-md-0">
                     <textarea class="form-control" id="form-message" :placeholder="data.getString('message')" required/>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Bottom Column -->
-            <div class="col-12 text-center mt-3 mt-lg-4">
+            <div class="col-12 text-center mt-3 mt-lg-4 animate-on-scroll">
                 <button class="btn btn-primary btn-xl" type="submit" id="btn-submit-message" :class="{disabled: submitStatus === SubmitStatus.SENDING}">
                     <i class="fa fa-envelope me-1"/> {{ data.getString('sendMessage') }}
                 </button>
@@ -266,5 +266,21 @@ textarea {
 
     font-family: $headings-font-family;
     color: $light-5;
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

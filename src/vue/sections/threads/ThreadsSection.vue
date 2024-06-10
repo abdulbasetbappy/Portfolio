@@ -2,7 +2,7 @@
     <SectionTemplate :section-data="props.sectionData">
         <!-- Threads Grid -->
         <div class="row g-4 g-lg-5">
-            <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 col-xxl-6 thread-container">
+            <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 col-xxl-6 thread-container animate-on-scroll">
                 <!-- Category Name -->
                 <SubHeading :title="subcategory['locales']['title']"
                             :fa-icon="subcategory['faIcon']"/>
@@ -36,5 +36,21 @@ const props = defineProps({
             padding-right:2.5rem;
         }
     }
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

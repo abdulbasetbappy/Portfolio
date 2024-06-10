@@ -2,7 +2,7 @@
     <div class="row pt-1 pt-lg-3">
         <div v-for="item in props.items" class="col-12" :class="!displayAsList ? 'col-md-6' : ''">
             <!-- Item -->
-            <div class="contact-item">
+            <div class="contact-item animate-on-scroll">
                 <!-- Item Logo -->
                 <div class="contact-item-logo">
                     <i :class="item['faIcon']"/>
@@ -110,5 +110,21 @@ const _getItemLabel = (item) => {
     ));
 
     font-weight: bold;
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

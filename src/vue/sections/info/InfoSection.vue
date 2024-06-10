@@ -1,7 +1,7 @@
 <template>
     <SectionTemplate :section-data="props.sectionData">
-        <div class="info-row row gx-4 gx-xl-5">
-            <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 subcategory-col">
+        <div class="info-row row gx-4 gx-xl-5 animate-on-scroll">
+            <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 subcategory-col ">
                 <!-- Subcategory Title -->
                 <SubHeading v-if="subcategory['locales']['title']"
                             :title="subcategory['locales']['title']"
@@ -102,8 +102,23 @@ const _fetchAndParseItemsFor = (subcategory) => {
         ));
     }
 }
-
 .info-row {
     overflow-x:hidden;
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

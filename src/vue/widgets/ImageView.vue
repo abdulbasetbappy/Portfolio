@@ -129,6 +129,7 @@ defineExpose({
 .image-view {
     display: inline-block;
     overflow: hidden;
+    transition: all 0.3s;
 }
 
 .image-view-img {

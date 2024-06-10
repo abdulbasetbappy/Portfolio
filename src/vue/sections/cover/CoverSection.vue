@@ -1,6 +1,6 @@
 <template>
   <SectionTemplate class="parent" :section-data="props.sectionData">
-    <div class="resume">
+    <div class="resume animate-on-scroll">
       <!--Resume-->
       <a href="/public/mohasin-hossain-full-stack-developer-resume.pdf" download>
       <button class="resume-btn">
@@ -12,20 +12,20 @@
     </a>
     </div>
     <!-- Title -->
-    <h1 class="cover-title display-1" v-html="coverTitle" />
+    <h1 class="cover-title display-1 animate-on-scroll" v-html="coverTitle" />
 
     <!-- Divider -->
-    <hr class="solid-divider ms-1 me-1" />
+    <hr class="solid-divider ms-1 me-1 animate-on-scroll" />
 
     <!-- Info Items -->
     <InlineList
-      class="info-list"
+      class="info-list animate-on-scroll"
       :items="props.sectionData.content['items']['contactListItems']"
     />
 
     <!-- Description -->
     <p
-      class="cover-description lead text-normal mb-4 mb-md-5"
+      class="cover-description lead text-normal mb-4 mb-md-5 animate-on-scroll"
       v-html="props.sectionData.content['locales']['bio']"
     />
 
@@ -198,6 +198,23 @@ h2 {
   100% {
     transform: translate(-50%,35px);
     opacity: 0;
+  }
+}
+
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
   }
 }
 </style>

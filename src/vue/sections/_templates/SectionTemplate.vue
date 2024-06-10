@@ -4,7 +4,7 @@
         <!-- Section Container -->
         <div class="section-container" v-if="props.sectionData.content">
             <!-- Section Header -->
-            <div class="section-header" v-if="props.sectionData.content['locales']['title']">
+            <div class="section-header animate-on-scroll" v-if="props.sectionData.content['locales']['title']">
                 <!-- Title -->
                 <h1 class="section-title mb-1 mb-lg-2 fw-bold text-uppercase" v-html="sectionTitle"/>
 
@@ -18,7 +18,7 @@
             </div>
 
             <!-- Section Content -->
-            <div class="section-content">
+            <div class="section-content ">
                 <slot/>
             </div>
         </div>
@@ -125,5 +125,21 @@ const sectionTitle = computed(() => {
         xl: (margin-bottom:2rem),
         lg: (margin-bottom:1.5rem),
     ))
+}
+.animate-on-scroll{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.9;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
 </style>

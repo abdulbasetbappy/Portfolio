@@ -116,7 +116,7 @@ ul.nav-links {
     position: relative;
     padding: 0;
     list-style: none;
-
+    transition: all 0.3s;
     @media screen and (min-height: 780px) {
         padding-top:1rem;
     }
@@ -223,6 +223,7 @@ li.nav-item {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: $nav-sidebar-transition;
         span {
             display: none;
         }
@@ -236,9 +237,6 @@ li.nav-item {
         display: none;
     }
 
-    .nav-toggle-button {
-        margin: 1.5rem 0 1rem!important;
-    }
 
     @media screen and (max-height: 620px) {
         ul.nav-links {
