@@ -57,6 +57,7 @@ const _selectItem = (item) => {
 }
 
 .btn-group {
+
     @include generate-dynamic-styles-with-hash((
         xxxl: (min-width:75%),
         xxl:  (min-width:85%),
@@ -73,20 +74,22 @@ const _selectItem = (item) => {
         xxxl: (padding: 0.3rem 2rem),
         sm: (padding: 0.3rem 0)
     ));
-
+    background-color: rgb(235, 235, 235);
     opacity: 0.8;
     border-radius: 30px;
-
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
     &.active, &:hover {
-        background-color: $light;
+        background-color: rgb(228, 245, 255);
         border-color: $light;
         color: $primary;
     }
 
     &.active {
-        font-weight: bold;
         opacity: 1;
-        background-color: darken($light-1, 1%);
+        background-color: rgb(228, 245, 255);
     }
 }
 </style>

@@ -33,6 +33,14 @@
                                 <Tags :items="props.project['locales']['tags']" :item-class="'bg-primary'" class="d-inline ms-2"/>
                             </div>
 
+                            <!--Role-->
+                            <div class="text-4">
+                                <i class="fa-solid fa-user-astronaut me-1 role-icon"></i>
+                                <span class="text-role">My Role:</span>
+                                <span v-html="props.project['locales']['role']" :item-class="'bg-primary'" class="d-inline ms-1"/>
+                            </div>
+
+
                             <!-- About SubSection -->
                             <div class="modal-subsection">
                                 <!-- Title -->
@@ -167,6 +175,16 @@ defineExpose({
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 27.5%;
+}
+.text-role{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.role-icon{
+    font-size: 1.2rem;
+    color: #2c3237;
+    margin-top: 2px;
+    margin-right: 5px;
 }
 
 </style>

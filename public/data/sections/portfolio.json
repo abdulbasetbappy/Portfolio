@@ -2,15 +2,15 @@
     "locales": {
         "en": {
             "title": "My <span class='text-primary'>Portfolio</span>",
-            "description": "Explore a selection of my recent projects and creative works."
+            "description": "Explore a selection of My Recent Projects and Creative works."
         }
     },
 
     "subcategories": [
         {
-            "id": "NuxtJs",
+            "id": "Frontend",
             "locales": {
-                "en": {"title": "NuxtJs"}
+                "en": {"title": "Front-end"}
             }
         },
         {
@@ -18,23 +18,30 @@
             "locales": {
                 "en": {"title": "Full-Stack"}
             }
+        },
+        {
+            "id": "UpComing",
+            "locales": {
+                "en": {"title": "UpComing"}
+            }
         }
     ],
 
     "items": {
-        "NuxtJs": [
+        "Frontend": [
             {
                 "id": "BdMeubles",
                 "title": "BdMeubles",
                 "logoUrl": "images/portfolio/Projects-02.png",
                 "links": [
-                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://apple.com", "id": "Website"},
-                    {"faIcon": "fa-solid fa-code", "href": "https://googleplay.com", "id": "Source Code"}
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://bdmeubles.fr/", "id": "Live Website"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy", "id": "Protected by Authority"}
                 ],
                 "locales": {
                     "en": {
-                        "description": "<b>BrainPulse</b> is your ultimate productivity app, helping you manage tasks, organize your schedule, and boost your focus. With its sleek and modern interface, BrainPulse offers features like task lists, reminders, goal tracking, and customizable productivity metrics. Whether you're a student, professional, or anyone looking to optimize their time and efficiency, BrainPulse is your go-to app for achieving more while maintaining work-life balance.",
-                        "tags": ["E-commerce", "Backend", "Design", "Development"]
+                        "description": "I was responsible for designing and developing the frontend of the <b>BdMeubles e-commerce website</b> using <b>Nuxt</b> with <b>SCSS</b>. This project was a collaborative effort with a Laravel developer who handled the backend API development. I managed the state using <b>Pinia</b>, ensuring that data was displayed categorically as required. <b>My contributions</b> included designing a carousel in the hero section, implementing the 'Add to Cart' functionality, and creating a <b>Responsive</b> header and footer. Additionally, I designed the single product page, the cart page, and the checkout page. This project was a <b>team effort</b> under the guidance of senior developers.",
+                        "tags": ["E-commerce", "Backend","SCSS", "Nuxt", "Design", "Development"],
+                        "role": "Frontend Design & API Integration"
                     }
                 }
             },
@@ -43,31 +50,66 @@
                 "title": "Chicken Sky",
                 "logoUrl": "images/portfolio/Projects-03.png",
                 "links": [
-                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
-                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://ChickenSky.fr", "id": "Live Website"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy", "id": "Protected by Authority"}
                 ],
                 "locales": {
                     "en": {
-                        "description": "<b>Find a Goalie</b> is your go-to app for finding and connecting with goaltenders in your area. Whether you're organizing a pickup hockey game or need a goalie for your team's practice session, this app makes it easy to search for available goaltenders, view their profiles, and send direct messages for collaboration. Get the pads on and let <b>Find a Goalie</b> help you keep the net covered!",
-                        "tags": ["Restaurant", "App", "Design", "Frontend"]
+                        "description": "This is a <b>restaurant app</b> where I was responsible for designing the <b>Home page</b>, <b>Menu page</b>, and the <b>Single Item Popup</b> with additional item selection facility, as well as the <b>Contact page</b>. The design was provided in Figma, and I converted it to <b>Nuxt</b>, ensuring it was <b>pixel-perfect</b> and <b>responsive</b>. I focused on every single detail, implementing dynamic features to enhance the user experience and integrating interactive elements to make the app more user-friendly.",
+                        "tags": ["Restaurant", "App", "Design", "Frontend"],
+                        "role": "Frontend Dynamic Design"
+                    }
+                }
+            },
+            {
+                "id": "Portfolio",
+                "title": "Portfolio(Grid)",
+                "logoUrl": "images/portfolio/Projects-04.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://portfolio-haezfz9f0-abdulbasetbappys-projects.vercel.app/", "id": "Live Website"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy/PortfolioX", "id": "Open Source Code"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is my <b>open-source portfolio</b> designed using <b>Nuxt</b> and <b>Tailwind CSS</b>, incorporating a <b>Grid System</b> for a structured layout. I utilized <b>Nuxt Content</b> to write and publish markdown blogs directly within the Nuxt app. A standout feature of this project is its <b>super responsiveness</b>, ensuring optimal performance across all devices. Additionally, the portfolio includes a <b>dark mode toggler</b>, allowing users to switch between light and dark themes seamlessly.",
+                        "tags": ["Portfolio", "Responsive", "BlogPost", "DarkMood"],
+                        "role": "Supper Responsive Design"
                     }
                 }
             }
         ],
-
         "Full-Stack": [
+            {
+                "id": "Blog",
+                "title": "Nano Blog",
+                "logoUrl": "images/portfolio/Projects-05.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "#", "id": "App Is Not Deployed"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy", "id": "open Source Code"}
+                    ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Nano Blog</b> is a full-stack blog application that I developed as a practice project to hone my skills. The frontend is built using <b>Nuxt</b> and <b>Tailwind CSS</b>, providing a modern and responsive design. I implemented all the pages, including a comprehensive <b>admin panel</b>. For authentication, I used <b>SideBase</b>, ensuring secure access to the admin functionalities. The app employs <b>Server-Side Rendering (SSR)</b> to enhance performance and SEO. I utilized <b>PrimeVue</b> for dynamic components, making the interface interactive and user-friendly. The backend is powered by <b>MongoDB</b>, offering a robust database solution. Additionally, I integrated <b>TipTap</b> for a rich text editor, allowing users to create and format their blog posts with ease.",
+                        "tags": ["Blog", "Text Editor", "Full-Stack", "NuxtJs","MongoDB"],
+                        "role": "Design and Developed Both Side"
+                    }
+                }
+            }
+        ],
+        "UpComing": [
             {
                 "id": "E-commerce",
                 "title": "E-commerce",
                 "logoUrl": "images/portfolio/Projects-01.png",
                 "links": [
-                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
-                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "#", "id": "App Is Not Deployed"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy", "id": "Open Source Code"}
                 ],
                 "locales": {
                     "en": {
-                        "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
-                        "tags": ["app", "finance", "money", "budget"]
+                        "description": "This is a <b>E-commerce app</b> where I was responsible for designing the <b>Home page</b>, <b>Product page</b>, <b>Cart page</b>, and the <b>Checkout page</b>. I designed the <b>Admin Dashboard</b> and implemented the <b>CRUD</b> operations for products and categories. The app was built using <b>Nuxt</b> for the frontend and <b>Laravel</b> for the backend.Here I also use Vue UI Library <b>PrimeVue</b>. I managed the state using <b>Pinia</b>, ensuring that data was displayed categorically as required.This project was a <b>team effort</b> under the guidance of senior developers.",
+                        "tags": ["app", "finance", "money", "budget"],
+                        "role": "Frontend Team Leader"
                     }
                 }
             }

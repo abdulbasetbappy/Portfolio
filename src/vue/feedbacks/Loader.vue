@@ -225,7 +225,7 @@ defineExpose({
 
     .progress-display {
         opacity: 0;
-        margin-top: -30px;
+        margin-top: -40px;
         overflow: hidden;
         transition: 0.3s all ease-out;
 
