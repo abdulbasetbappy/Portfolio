@@ -102,14 +102,30 @@
                 "title": "E-commerce",
                 "logoUrl": "images/portfolio/Projects-01.png",
                 "links": [
-                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "#", "id": "App Is Not Deployed"},
-                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy", "id": "Open Source Code"}
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://ecommerce-weld-three-86.vercel.app/", "id": "Live Website"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy/Ecommerce", "id": "Open Source Code"}
                 ],
                 "locales": {
                     "en": {
                         "description": "This is a <b>E-commerce app</b> where I was responsible for designing the <b>Home page</b>, <b>Product page</b>, <b>Cart page</b>, and the <b>Checkout page</b>. I designed the <b>Admin Dashboard</b> and implemented the <b>CRUD</b> operations for products and categories. The app was built using <b>Nuxt</b> for the frontend and <b>Laravel</b> for the backend.Here I also use Vue UI Library <b>PrimeVue</b>. I managed the state using <b>Pinia</b>, ensuring that data was displayed categorically as required.This project was a <b>team effort</b> under the guidance of senior developers.",
-                        "tags": ["app", "finance", "money", "budget"],
+                        "tags": ["Responsive", "Template", "Multi-Page", "Dynamic"],
                         "role": "Frontend Team Leader"
+                    }
+                }
+            },
+            {
+                "id": "Admin Panel",
+                "title": "Dashboard",
+                "logoUrl": "images/portfolio/Projects-06.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-phoenix-squadron", "href": "https://ecommerce-admin-hnzn-ompaqgqky-abdulbasetbappys-projects.vercel.app/", "id": "Live Website"},
+                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/abdulbasetbappy/Ecommerce-Admin", "id": "Open Source Code"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is a <b>E-commerce app Dashboard</b> where I was responsible for designing the <b>All pages</b>, <b>Sidebar Layout</b>. I also designed the <b>Text Editor </b> to write Product Description & <b> Filter Popup</b>. The app was built using <b>Nuxt Js</b> for the frontend and <b>Laravel</b> for the backend.Here I also use Vue UI Library <b>PrimeVue</b>. I managed the state using <b>Pinia</b>, ensuring that data was displayed categorically as required.This project was a <b>team effort</b> under the guidance of senior developers.",
+                        "tags": ["App", "Dashboard", "Text Editor", "PrimeVue"],
+                        "role": "Frontend Team Member"
                     }
                 }
             }
